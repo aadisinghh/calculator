@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+
+    <!-- About Modal -->
+    <div id="about-overlay" class="overlay hidden"></div>
+    <div id="about-modal" class="modal hidden" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+      <div class="modal-header">
+        <h2 id="modal-title">About</h2>
+        <button id="close-modal-btn" class="btn-close" aria-label="Close about section">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>This calculator was developed by:</p>
+        <p class="developer-name">Aditya Singh</p>
+        <a href="mailto:singhadi0655@gmail.com" class="developer-email">singhadi0655@gmail.com</a>
+      </div>
+    </div>
+
+    <script type="module" src="index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
